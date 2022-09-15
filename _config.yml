@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: ItisFuture                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 생각하는 그것이 곧 미래입니다. 파이팅   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
@@ -34,20 +34,22 @@ url: 'https://KimGyeongMin-KR.github.io'
 github:
   username: KimGyeongMin-KR             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+instagram:
+  username: gaeng_man            # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@doamin.com             # change to your email address
+  name: 김경민
+  email: gyeongmin951@naver.com             # change to your email address
   links:
+
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    # - https://twitter.com/username      # change to your twitter homepage
+    # - https://github.com/KimGyeongMin-KR
+    # - https://www.instagram.com/gaeng_man
+         # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
@@ -80,23 +82,23 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/favicons/avatar2-512x512.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
 
-comments:
-  active:         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+comments: 
+  active: 'utterances'         # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo:         # <gh-username>/<repo>
-    issue_term:   # < url | pathname | title | ...>
+    repo: 'KimGyeongMin-KR/KimGyeongMin-KR.github.io'        # <gh-username>/<repo>
+    issue_term: 'pathname'   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
     repo:             # <gh-username>/<repo>
