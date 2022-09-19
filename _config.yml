@@ -21,9 +21,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ItisFuture                          # the main title
+title: 적은 대로 된다.              # the main title
 
-tagline: 생각하는 그것이 곧 미래입니다. 파이팅   # it will display as the sub-title
+tagline: It is the Future.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   기억은 기록을 이기지 못한다.
