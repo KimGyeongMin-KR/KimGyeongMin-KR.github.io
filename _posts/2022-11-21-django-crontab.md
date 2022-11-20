@@ -1,7 +1,8 @@
 ---
-title : [Django/Python] django-crontab 일정 주기로 함수 실행하기
-tags : python django django-crontab
+title : Django/Python django-crontab 일정 주기로 함수 실행하기
+tags : python django 
 category : [Programming, Django]
+
 ---
 
 서버에서 일정 주기로 함수 실행하기!
