@@ -1,6 +1,6 @@
 ---
 title : Django/Python django-crontab 일정 주기로 함수 실행하기
-tags : python django 
+tags : python django
 category : [Programming, Django]
 
 ---
@@ -39,4 +39,4 @@ CRONJOBS = [
 ]
 ```
 - 매분 실행하고 프로젝트/폴드/로그파일 경로를 설정하여 로그를 확인할 수 있다.
-(crontab 시간 설정 웹 사이트)[https://crontab.guru/#*_*_*_*_*]
+[crontab 시간 설정 웹 사이트](https://crontab.guru/#*_*_*_*_*)
