@@ -1,5 +1,5 @@
 ---
-title : Serializer 객체 접근 & 게시글에 포함 된 여러장의 이미지를 serializer로 저장
+title : Serializer 객체 접근 & 게시글에 포함 된 여러장의 이미지를 serializer로 저장하기
 use_math : true
 tags : python django drf django-rest-framework
 category : [Programming Django]
@@ -130,12 +130,12 @@ class GoodsView(ModelViewSet):
 ```
 모델 뷰셋을 사용하였는데 여기에서 중요한 것만 짚겠다.
 
-- post요청이 왔을 때 create메서드를 오바라이딩 하였다
-[1] 유효성 검사를 통하기 전 데이터(initial_data)에서 이미지 필드의 값들을 빼온다
-[2] 1번에서 빼온 이미지 데이터를 {'필드값' : 이미지값} serializer양식에 맞춰준다
-[3] 글 양식에서 이미지를 제외한 데이터를 serializer를 통해서 저장하고 객체를 가져온다.
-[4] 2번에서 양식을 맞춰준 이미지 데이터들을 시리얼 라이저에 넣어 유효성 검사를 한다.
-[5] 어떤 상품을 바라보는지 3번에서의 값을 저장시켜준다.
+post요청이 왔을 때 create메서드를 오바라이딩 하였다
+- [1] 유효성 검사를 통하기 전 데이터(initial_data)에서 이미지 필드의 값들을 빼온다
+- [2] 1번에서 빼온 이미지 데이터를 {'필드값' : 이미지값} serializer양식에 맞춰준다
+- [3] 글 양식에서 이미지를 제외한 데이터를 serializer를 통해서 저장하고 객체를 가져온다.
+- [4] 2번에서 양식을 맞춰준 이미지 데이터들을 시리얼 라이저에 넣어 유효성 검사를 한다.
+- [5] 어떤 상품을 바라보는지 3번에서의 값을 저장시켜준다.
 
 
 ~~request.data에서 빼와서 사용을 해도 되지만 serializer에서 접근을 하고 싶은 마음에 검색하여 사용했다.~~ 
