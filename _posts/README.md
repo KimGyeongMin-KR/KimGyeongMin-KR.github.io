@@ -23,6 +23,7 @@ Index란 말그대로 색인이라는 의미를 갖습니다. 색인은 데이�
 </div>    
 </details>
 
+
 <details>
 <summary>트랜잭션</summary> 
 <div markdown ="1">
@@ -36,6 +37,7 @@ Index란 말그대로 색인이라는 의미를 갖습니다. 색인은 데이�
 
 </div>    
 </details>
+
 
 <details>
 <summary>해시테이블</summary> 
