@@ -2,7 +2,7 @@
 title : Serializer 객체 접근 & 게시글에 포함 된 여러장의 이미지를 serializer로 저장하기
 use_math : true
 tags : python django drf django-rest-framework
-category : [Programming Django]
+category : [Programming, Django]
 
 ---
 
