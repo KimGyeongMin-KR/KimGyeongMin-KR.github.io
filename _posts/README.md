@@ -1,7 +1,6 @@
-# 한 줌 노트
+# 면접 한 줌 노트
 
 ## Computer science
-
 ## Database
 - [Index, hash index, B-Tree, B+Tree란]()
 <details>
