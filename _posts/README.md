@@ -1,6 +1,29 @@
 # 면접 한 줌 노트
 
 ## Computer science
+
+
+<details>
+<summary>프로세스와 스레드</summary> 
+<div markdown ="1">
+
+- 프로세스는 자원을 할당받는 작업의 단위
+- 스레드는 프로세스 내에서 실행되는 여러 작업의 단위입니다.
+
+</div>    
+</details>
+
+
+<details>
+<summary>동시성과 병렬성</summary> 
+<div markdown ="1">
+
+- 동시성은 같은 시간에 여러 작업을 처리하는 것 처럼 보이는 것을 뜻한다.
+- 병렬성은 같은 시간에 여러 작업을 실제로 처리하는 것을 뜻한다. (CPU 코어)
+
+</div>    
+</details>
+
 ## Database
 - [Index, hash index, B-Tree, B+Tree란]()
 <details>
